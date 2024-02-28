@@ -1,5 +1,5 @@
 
-
+// drone page
 const Drone = () => {
   return (
    <>
