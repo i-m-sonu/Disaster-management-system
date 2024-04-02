@@ -1,0 +1,2 @@
+`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${place}?unitGroup=us&key=2VPJ28CTFE8EW6RTBK8PULF4Y&contentType=json&include=current,alerts`
+ 2VPJ28CTFE8EW6RTBK8PULF4Y
