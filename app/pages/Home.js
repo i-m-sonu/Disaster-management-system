@@ -44,6 +44,15 @@ const Home = () => {
           </div>
           </Link>
         </div>
+        {/* <div className="center">
+          <div className="box">
+            <h1>
+              <div className="large">
+                EMERGENGE HELP
+              </div>
+            </h1>
+          </div>
+        </div> */}
         <div className="container">
           <h1>Welcome to disaster management portal</h1>
           <p>
