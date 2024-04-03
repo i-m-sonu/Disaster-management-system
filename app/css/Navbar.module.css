@@ -53,11 +53,14 @@
 
 .nav :hover {
     color: white;
-    transform: scale(1.25);
+    transform: scale(1.1);
 
 }
 
-
+.link{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 
 

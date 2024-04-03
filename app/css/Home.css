@@ -1,4 +1,23 @@
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-text {
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
 /* CSS for Home component */
+.body{
+  padding-right: 40px;
+  padding-left: 40px;
+}
 .container {
     margin: 20px;
     padding: 20px;
@@ -7,12 +26,13 @@
     background-color: #f9f9f9;
   }
   
+  
   h1 {
-    color: #333;
+    color: black;
   }
   
   h2 {
-    color: #555;
+    color: black;
   }
   
   p {
@@ -46,4 +66,37 @@
     box-sizing: border-box; /* Include border and padding in the width */
   }
   
-  
+  .large{
+    font-size: 50px;
+    color: #777;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .box{
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    /* padding: 100px; */
+  }
+  .link{
+    text-decoration: none;
+   
+}
+.box:hover{
+  transform: scale(1.1);
+ 
+}
