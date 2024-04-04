@@ -44,15 +44,20 @@ const Home = () => {
           </div>
           </Link>
         </div>
-        {/* <div className="center">
-          <div className="box">
+        <Link className="link" href="/Help">
+
+      
+        <div className="center">
+          <div className="box1">
             <h1>
+              I NEED
               <div className="large">
-                EMERGENGE HELP
+                IMMIDIATE HELP
               </div>
             </h1>
           </div>
-        </div> */}
+        </div>
+        </Link>
         <div className="container">
           <h1>Welcome to disaster management portal</h1>
           <p>

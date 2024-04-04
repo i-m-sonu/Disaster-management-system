@@ -1,15 +1,19 @@
 import React from "react";
 import Navbar from "../pages/Navbar";
+import "../globals.css"
 
 const page = () => {
   return (
     <>
     <Navbar />
-      <h1>WIND RELATED</h1>
+    <div className="body">
 
-      <h1>Storm</h1>
+   
+      <h1 className="">WIND RELATED</h1>
 
-      <h2>Do's:</h2>
+      <h2 className="flex">Storm</h2>
+
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay informed by monitoring weather updates and alerts.</li>
         <li>Create an emergency kit with essential supplies.</li>
@@ -17,7 +21,7 @@ const page = () => {
         <li>Secure outdoor objects that could become projectiles.</li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Don't ignore evacuation orders; evacuate if necessary.</li>
         <li>Don't use candles during power outages; use flashlights.</li>
@@ -25,9 +29,9 @@ const page = () => {
         <li>Don't rely solely on your mobile phone for communication.</li>
       </ul>
 
-      <h1>Cyclone</h1>
+      <h2 className="flex">Cyclone</h2>
 
-      <h2>Do's</h2>
+      <h3 className="flex">Do's</h3>
       <ul>
         <li>
           Stay informed about cyclone warnings and updates from authorities.
@@ -42,7 +46,7 @@ const page = () => {
         <li>Keep your mobile phone charged for emergency communication.</li>
       </ul>
 
-      <h2>Don'ts</h2>
+      <h3 className="flex">Don'ts</h3>
       <ul>
         <li>
           Don't go outside during the cyclone unless absolutely necessary.
@@ -59,9 +63,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Tornado Safety Guide</h1>
+      <h2 className="flex">Tornado Safety Guide</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay informed: Monitor local weather alerts and warnings.</li>
         <li>
@@ -76,7 +80,7 @@ const page = () => {
         </li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>
           Don't stay in a mobile home: They are not safe during tornadoes.
@@ -91,9 +95,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Storm Surge</h1>
+      <h2 className="flex">Storm Surge</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
 
       <ul>
         <li>Stay informed through local weather alerts and news.</li>
@@ -108,7 +112,7 @@ const page = () => {
         <li>Turn off utilities before evacuating if time allows.</li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
 
       <ul>
         <li>Don't underestimate the power of storm surge; it can be deadly.</li>
@@ -129,9 +133,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Tidal Wave</h1>
+      <h2 className="flex">Tidal Wave</h2>
 
-      <h2>Do's</h2>
+      <h3 className="flex">Do's</h3>
       <ul>
         <li>
           Stay Informed: Monitor local news and weather alerts for tidal wave
@@ -152,7 +156,7 @@ const page = () => {
         <li>Stay Calm: Keep calm and help others during the emergency.</li>
       </ul>
 
-      <h2>Don'ts</h2>
+      <h3 className="flex">Don'ts</h3>
       <ul>
         <li>
           Don't Ignore Warnings: Take tsunami warnings seriously and act
@@ -178,9 +182,9 @@ const page = () => {
 
       <h1>WATER RELATED</h1>
 
-      <h1>Flood Safety</h1>
+      <h2 className="flex">Flood Safety</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay informed about weather conditions and flood alerts.</li>
         <li>
@@ -194,7 +198,7 @@ const page = () => {
         </li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Don't walk or drive through floodwaters.</li>
         <li>Don't ignore evacuation orders or warnings.</li>
@@ -207,9 +211,9 @@ const page = () => {
         <li>Don't return to your home until authorities declare it safe.</li>
       </ul>
 
-      <h1>Cloud Burst</h1>
+      <h2 className="flex">Cloud Burst</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay informed about weather updates.</li>
         <li>Seek higher ground if you are in a low-lying area.</li>
@@ -221,7 +225,7 @@ const page = () => {
         <li>Stay indoors and away from windows during heavy rainfall.</li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Do not attempt to drive through flooded areas.</li>
         <li>Avoid walking or swimming in floodwaters.</li>
@@ -231,9 +235,9 @@ const page = () => {
         <li>Don't ignore evacuation orders or warnings from authorities.</li>
       </ul>
 
-      <h1>Flash Floods</h1>
+      <h2 className="flex">Flash Floods</h2>
 
-      <h2>Do:</h2>
+      <h3 className="flex">Do:</h3>
       <ul>
         <li>
           Stay informed about weather conditions through alerts and updates.
@@ -250,7 +254,7 @@ const page = () => {
         </li>
       </ul>
 
-      <h2>Don't:</h2>
+      <h3 className="flex">Don't:</h3>
       <ul>
         <li>
           Don't walk or drive through flooded areas, as it can be dangerous and
@@ -268,9 +272,9 @@ const page = () => {
         <li>Don't camp or park near rivers or streams during heavy rains.</li>
       </ul>
 
-      <h1>Do's and Don'ts of Disaster Excessive Rain</h1>
+      <h2 className="flex">Do's and Don'ts of Disaster Excessive Rain</h2>
 
-      <h2>Do's</h2>
+      <h3 className="flex">Do's</h3>
       <ul>
         <li>Stay informed about weather forecasts and warnings.</li>
         <li>Prepare an emergency kit with essential supplies.</li>
@@ -279,7 +283,7 @@ const page = () => {
         <li>Turn off utilities if instructed to do so.</li>
       </ul>
 
-      <h2>Don'ts</h2>
+      <h3 className="flex">Don'ts</h3>
       <ul>
         <li>Do not drive through flooded roads.</li>
         <li>Avoid camping near rivers during heavy rain.</li>
@@ -288,9 +292,9 @@ const page = () => {
         <li>Don't ignore evacuation orders; take them seriously.</li>
       </ul>
 
-      <h1>Drought</h1>
+      <h2 className="flex">Drought</h2>
 
-      <h2>Do's</h2>
+      <h3 className="flex">Do's</h3>
       <ul>
         <li>Conserve water by fixing leaks promptly.</li>
         <li>Collect rainwater for non-potable use.</li>
@@ -302,7 +306,7 @@ const page = () => {
         </li>
       </ul>
 
-      <h2>Don'ts</h2>
+      <h3 className="flex">Don'ts</h3>
       <ul>
         <li>Avoid overwatering your lawn and plants.</li>
         <li>Don't leave taps running while not in use.</li>
@@ -316,9 +320,9 @@ const page = () => {
 
       <h1>EARTH RELATED</h1>
 
-      <h1>Earthquake Safety</h1>
+      <h2 className="flex">Earthquake Safety</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay calm and try to remain indoors.</li>
         <li>Drop to the ground and take cover under furniture if possible.</li>
@@ -333,7 +337,7 @@ const page = () => {
         <li>Listen to emergency broadcasts for updates and instructions.</li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Don't run outside during the quake.</li>
         <li>Don't use elevators.</li>
@@ -346,9 +350,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Tsunami Preparedness</h1>
+      <h2 className="flex">Tsunami Preparedness</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay informed through official tsunami warnings and alerts.</li>
         <li>Have an emergency kit ready with essential supplies.</li>
@@ -357,7 +361,7 @@ const page = () => {
         <li>Move to higher ground immediately if you receive a warning.</li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Do not ignore tsunami warnings or alerts.</li>
         <li>Do not go to the beach to watch for tsunamis.</li>
@@ -368,9 +372,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Avalanche Safety</h1>
+      <h2 className="flex">Avalanche Safety</h2>
 
-      <h2>Do's</h2>
+      <h3 className="flex">Do's</h3>
       <ul>
         <li>Always check the avalanche forecast before heading out.</li>
         <li>Carry essential safety equipment: beacon, probe, and shovel.</li>
@@ -379,7 +383,7 @@ const page = () => {
         <li>Practice using your avalanche safety gear regularly.</li>
       </ul>
 
-      <h2>Don'ts</h2>
+      <h3 className="flex">Don'ts</h3>
       <ul>
         <li>
           Don't venture into avalanche-prone terrain without proper training.
@@ -398,9 +402,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Landslide</h1>
+      <h2 className="flex">Landslide</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay informed about landslide risks in your area.</li>
         <li>Create an emergency plan for your family.</li>
@@ -410,7 +414,7 @@ const page = () => {
         <li>Evacuate to higher ground if advised by authorities.</li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Don't build or live in landslide-prone areas.</li>
         <li>
@@ -425,9 +429,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Volcanic Disasters</h1>
+      <h2 className="flex">Volcanic Disasters</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>
           Stay Informed: Keep track of local authorities' updates and evacuation
@@ -451,7 +455,7 @@ const page = () => {
         </li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Don't Ignore Warnings: Take all warnings and alerts seriously.</li>
         <li>
@@ -474,9 +478,9 @@ const page = () => {
 
       <h1>OTHER DISASTERS</h1>
 
-      <h1> Heavy Snowfall</h1>
+      <h2 className="flex"> Heavy Snowfall</h2>
 
-      <h2>Do:</h2>
+      <h3 className="flex">Do:</h3>
       <ul>
         <li>
           Prepare an emergency kit with food, water, blankets, and a flashlight.
@@ -487,7 +491,7 @@ const page = () => {
         <li>Stay warm by dressing in layers and wearing a hat and gloves.</li>
       </ul>
 
-      <h2>Don't:</h2>
+      <h3 className="flex">Don't:</h3>
       <ul>
         <li>Drive unless it's absolutely necessary during heavy snowfall.</li>
         <li>Leave pets outside without proper shelter and protection.</li>
@@ -503,9 +507,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Wildfire Safety</h1>
+      <h2 className="flex">Wildfire Safety</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay informed about wildfire alerts and evacuation orders.</li>
         <li>
@@ -522,7 +526,7 @@ const page = () => {
         </li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>
           Don't ignore evacuation orders; evacuate immediately when instructed.
@@ -541,9 +545,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Blizzards</h1>
+      <h2 className="flex">Blizzards</h2>
 
-      <h2>Do:</h2>
+      <h3 className="flex">Do:</h3>
       <ul>
         <li>Stay Informed: Monitor weather updates and warnings.</li>
         <li>
@@ -559,7 +563,7 @@ const page = () => {
         </li>
       </ul>
 
-      <h2>Don't:</h2>
+      <h3 className="flex">Don't:</h3>
       <ul>
         <li>Drive in Whiteout Conditions: Visibility can be almost zero.</li>
         <li>
@@ -573,9 +577,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Storm Preparedness</h1>
+      <h2 className="flex">Storm Preparedness</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Stay informed by monitoring weather updates and alerts.</li>
         <li>Create an emergency kit with essential supplies.</li>
@@ -583,7 +587,7 @@ const page = () => {
         <li>Secure outdoor objects that could become projectiles.</li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Don't ignore evacuation orders; evacuate if necessary.</li>
         <li>Don't use candles during power outages; use flashlights.</li>
@@ -591,9 +595,9 @@ const page = () => {
         <li>Don't rely solely on your mobile phone for communication.</li>
       </ul>
 
-      <h1>Fire Disaster</h1>
+      <h2 className="flex">Fire Disaster</h2>
 
-      <h2>Do's:</h2>
+      <h3 className="flex">Do's:</h3>
       <ul>
         <li>Do call 911 or emergency services immediately.</li>
         <li>
@@ -607,7 +611,7 @@ const page = () => {
         <li>Do close doors behind you to slow down the fire's spread.</li>
       </ul>
 
-      <h2>Don'ts:</h2>
+      <h3 className="flex">Don'ts:</h3>
       <ul>
         <li>Don't use elevators during a fire; take the stairs.</li>
         <li>Don't ignore small fires; they can quickly escalate.</li>
@@ -618,9 +622,9 @@ const page = () => {
         </li>
       </ul>
 
-      <h1>Hailstorms</h1>
+      <h2 className="flex">Hailstorms</h2>
 
-      <h2>Do:</h2>
+      <h3 className="flex">Do:</h3>
       <ul>
         <li>Stay Informed: Keep an eye on weather forecasts and warnings.</li>
         <li>
@@ -640,7 +644,7 @@ const page = () => {
         </li>
       </ul>
 
-      <h2>Don't:</h2>
+      <h3 className="flex">Don't:</h3>
       <ul>
         <li>Stay Outside: Avoid being outdoors during a hailstorm.</li>
         <li>
@@ -656,6 +660,7 @@ const page = () => {
           distance.
         </li>
       </ul>
+      </div>
     </>
   );
 };
